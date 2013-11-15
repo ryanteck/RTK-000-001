@@ -3,7 +3,8 @@ import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
 
-#Setup
+#Setup for motor 1
+#for motor 2 change to pins 22 and 23
 GPIO.setup(17, GPIO.OUT)
 GPIO.setup(18, GPIO.OUT)
 #Now loop forever turning one direction for 5 seconds, then the other
